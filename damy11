@@ -1,0 +1,122 @@
+<html>
+<head>
+  <title>Ida , Bangun yah Dah Pagi - Kompiwin</title>
+  <meta name="description" content="Script HTML Bucin Beli Itik di Rumah Si Iku">
+  <meta name="keywords" content="script html bucin, script html bucin kompiwin, script bucin replit">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <link rel="icon" href="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-32x32.png" sizes="32x32" />
+  <link rel="icon" href="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-180x180.png" />
+  <meta name="msapplication-TileImage" content="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-270x270.png" />
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+  <script src="cdn.jsdelivr.net/npm/sweetalert2%4011.0.19/dist/sweetalert2.all.min.js"></script><link href="feeldreams.github.io/gppko/style.css" rel="stylesheet" type="text/css" />
+  <script src="kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://general.kompiwin.repl.co/general.js"></script>
+</head>
+<body>
+	
+   <!-- Ganti Audio di sini --><audio src="lagfua.mp3" id="linkmp3"></audio><script>audio = new Audio('' + linkmp3.src);</script>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="feeldreams.github.io/wp2.jpg" id="wallpaper"/><div id="beneranblur"></div>
+   </div>
+
+   <div id='Content'>
+   	
+     <div id="suratin" onClick="memulai();">
+       <!-- Tombol Surat --><img src="rayyscoding.github.io/envelope.png"/>
+     </div>
+     <p id="ket">Klik Pesannya!</p>
+   
+     <div>
+         <!-- Stiker untuk Konten -->
+         <img src="feeldreams.github.io/ywdh.gif" id="fotoakhir"/>
+         <img src="feeldreams.github.io/bantal.gif" id="fotoakhir1"/>
+         <img src="feeldreams.github.io/ngumpet.gif" id="fotoakhir2"/>
+         <img src="feeldreams.github.io/ywdh.gif" id="fotoakhir3"/>
+         <img src="feeldreams.github.io/pandaknp.gif" id="fotoakhir4"/>
+         <img src="feeldreams.github.io/smprt.gif" id="fotoAkhir"/>
+     </div>
+     <div><blockquote id='bq'>
+  
+       <!-- Konten Penerapan -->
+       <p id="kalimat">Bangun yuu Ida</p>
+       <p id="kalimata">Gapapa Kok, walau cape</p>
+       <p id="kalimatb">Tetep Semangat Ya....</p>
+       <p id="kalimatc">Jangan Lupa Senyum juga Ida</p>
+       <p id="kalimatd">Hehehe 👉🏻👈🏻</p>
+
+       <!-- Konten Pertanyaan -->
+       <p id="kalimat2">Paham kan? 🙂</p>
+
+       <!-- Konten Jawaban -->
+       <p id="kalimat3">Okeeyy...</p>
+       <p id="kalimatb3">Pokoknya Harus Semangat hari ini....:)).</p>
+     </blockquote></div>
+
+      <!-- Pesan Ditolak -->
+     <div id="pesanditolak">
+       <img id="stikerditolak" src="feeldreams.github.io/ywdh.gif"/>
+       <p id="kataditolak">Ihh....</p>
+     </div>
+     
+     <!-- Pesan yang Akan Dikirim ke WhatsApp -->
+     <span id="pesanWA">Hehe iya paham ko </span>
+   
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a id="By" onClick="multifungsi()">
+         <b id="tmbl">Lanjut</b>
+         <b id="tmbl2">Iyaa</b>
+       </a>
+       
+       <a id="Bn" onClick="ditolak()">Engga</a>
+     </div>
+     
+   </div>
+
+<!-- Jangan Edit Bagian Ini --><script>
+  ftom=0;jikakuis=0;ftganti=0;flag=1;flagg=1;fungsi=0;
+  
+  function mulaikonten() {
+                          fungsi=1;
+                          suratin.style="display:none";
+                          ket.style="display:none";
+                          Content.style = "opacity:1;margin-top:4vh;";
+                          bodyblur.style="opacity:.4;animation:none";
+                          wallpaper.style="transform: scale(1);";
+                          bq.style = "position:relative;opacity:1;visibility:visible;margin-top:0;";
+
+                          audio.play();ftganti=0;ftmuncul();
+                          setTimeout(mulaiketik1,700);
+                          setTimeout(fmulaiketik1b,1950);setTimeout(mulaiketik1b,1950);
+                          setTimeout(fmulaiketik2,3600);setTimeout(mulaiketik2,3600);
+                          setTimeout(fmulaiketik3,5800);setTimeout(mulaiketik3,5800);
+                          setTimeout(fmulaiketik4,7300);setTimeout(mulaiketik4,7300);
+                         }
+  
+  function ftmuncul(){
+    if(ftganti==0){fotoakhir.style="display:inline-flex;transition:all .7s ease;opacity:1;transform:scale(1)";}
+    if(ftganti==1){fotoakhir.src = fotoakhir4.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==2){fotoakhir.src = fotoakhir2.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==3){fotoakhir.src = fotoAkhir.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+  }
+  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=6287820396757&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";}
+
+  const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+</script>
+<script src="feeldreams.github.io/gppko/script.js"></script>
+<!-- Sampai Sini -->
+</body>
+
+<!-- Mirrored from gppko.feeldream.repl.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Jan 2023 14:54:52 GMT -->
+</html>
